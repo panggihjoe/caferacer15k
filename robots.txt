@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /search?q=*
+Disallow: /p/dmca
+Disallow: /p/contact
+Disallow: /p/privacy-policy
+Disallow: /p/copyright
+
+Allow: /
+User-agent: Mediapartners-Google
+Allow: /
+User-agent: Googlebot-Mobile
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: Adsbot-Google
+Allow: /
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://ridefiles-66cdf.web.app/sitemap.xml
